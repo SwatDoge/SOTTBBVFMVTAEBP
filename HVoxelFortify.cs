@@ -15,7 +15,7 @@ class HVoxelFortify
     static bool Activate(MonoBehaviourPublicVeVoTrBoInVoTrBoVoTrUnique __instance)
     {
         MonoBehaviourPublicVeVoTrBoInVoTrBoVoTrUnique PrebuiltVoxelStructureInstance = __instance.GetComponentInChildren<MonoBehaviourPublicVeVoTrBoInVoTrBoVoTrUnique>(true);
-        PrebuiltVoxelStructureInstance.field_Public_ArrayOf_Vector3Int_0 = new Vector3Int[0];
+        PrebuiltVoxelStructureInstance.field_Public_ArrayOf_Vector3Int_0 = new Vector3Int[999999];
         
         IVoxFile VoxelMap = VoxReader.VoxReader.Read(@"C:\Users\swat\Desktop\battlebits_server\AgeOfShovels\levels\with_ramps.vox");
 
